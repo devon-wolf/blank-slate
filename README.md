@@ -13,3 +13,11 @@
   - the issue here is generally that eslint shouldn't be listed in the `package.json` because it's already a dependency within `create-react-app`
 - add extra typings to boilerplate files to make eslint happy
 - run prettier: `npx prettier --write .`
+
+## pruning out create-react-app
+
+- clear out `App` of everything but a wrapper div, update test to check for basic rendering
+- clear out unused styling in `App.css`
+- update `index.css` to reflect basic sensible defaults
+- remove `reportWebVitals` from `index` and `src`
+- remove logos and references to logos
