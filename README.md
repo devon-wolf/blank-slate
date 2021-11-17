@@ -1,6 +1,7 @@
 # blank-slate
 
 ## general react setup process
+This is the process used to set up this template; if you are using the template, you can probably just `npm i` and go on with your day.
 
 - `npx create-react-app app-name --template typescript`
 - `cd app-name`
